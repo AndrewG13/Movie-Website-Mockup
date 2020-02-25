@@ -29,3 +29,7 @@ img {
     margin-right: 16px;
     font-size: 15px;
 }
+
+.font {
+    font-family: "Arial", Helvetica, sans-serif;
+}
