@@ -1,0 +1,24 @@
+nav {
+    border-bottom: 2px solid black;
+}
+
+.glutenfree ol {
+    list-style-type: none;
+    padding=left: 0;
+}
+
+.gluten {
+    display: inline-block;
+}
+
+.gluten a::after {
+    display: inline-block;
+    color: red;
+    content: "->";
+    font-weight: bold;
+    padding: inherit;
+}
+
+.center {
+    text-align: center;
+}
