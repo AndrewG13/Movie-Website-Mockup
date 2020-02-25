@@ -34,6 +34,7 @@ nav {
 .mainnav {
     overflow: hidden;
     background-color: red;
+    border-radius: 5%;
 }
 
 .mainnav a {
@@ -61,6 +62,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 5px;
 }
 
 .font {

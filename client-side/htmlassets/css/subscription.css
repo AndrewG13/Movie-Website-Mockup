@@ -23,6 +23,7 @@ nav {
 .mainnav {
     overflow: hidden;
     background-color: red;
+    border-radius: 5%;
 }
 
 .mainnav a {
@@ -76,6 +77,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 5px;
 }
 
 .dropd {
@@ -83,6 +87,7 @@ img {
     color: whitesmoke;
     padding: 15px;
     border: none;
+    border-radius: 20%;
 }
 
 .dropdown {
@@ -97,6 +102,7 @@ img {
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 5%;
 }
 
 .dropdown-content a {
@@ -109,14 +115,17 @@ img {
 
 .border {
     border: 10px solid red;
+    border-radius: 5%;
 }
 
 .border2 {
     border: 10px solid gold;
+    border-radius: 5%;
 }
 
 .border3 {
     border: 10px solid silver;
+    border-radius: 5%;
 }
 
 body {
