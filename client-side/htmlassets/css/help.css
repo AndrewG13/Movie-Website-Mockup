@@ -41,7 +41,7 @@ nav {
     display: block;
     color: black;
     text-align: center;
-    padding: inherit;
+    padding: 15px 15px;
     text-decoration: none;
     font-size: 17px;
 }

@@ -19,6 +19,7 @@ nav {
     padding: inherit;
 }
 
+
 .mainnav {
     overflow: hidden;
     background-color: red;
@@ -43,13 +44,7 @@ nav {
     font-size: 15px;
 }
 
-p {
-    display: block;
-    align-content: center;
-    text-align: center;
-}
-
-img {
+.logo {
     width: 300px;
     height: 200px;
     display: block;
@@ -59,4 +54,18 @@ img {
 
 .font {
     font-family: "Arial", Helvetica, sans-serif;
+}
+
+form.formalign {
+    text-align: center;
+}
+
+.org {
+    width: 300px;
+    clear:both;
+}
+
+.org input {
+    width: 100%;
+    clear: both;
 }
