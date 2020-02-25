@@ -118,3 +118,12 @@ img {
 .border3 {
     border: 10px solid silver;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}

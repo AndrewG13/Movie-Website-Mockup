@@ -60,3 +60,12 @@ img {
 .font {
     font-family: "Arial", Helvetica, sans-serif;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}

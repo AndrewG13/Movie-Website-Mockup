@@ -69,3 +69,12 @@ form.formalign {
     width: 100%;
     clear: both;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
