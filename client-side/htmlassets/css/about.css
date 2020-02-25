@@ -1,0 +1,58 @@
+nav {
+    border-bottom: 2px solid black;
+}
+
+.glutenfree ol {
+    list-style-type: none;
+    padding=left: 0;
+}
+
+.gluten {
+    display: inline-block;
+}
+
+.gluten a::after {
+    display: inline-block;
+    color: red;
+    content: "->";
+    font-weight: bold;
+    padding: inherit;
+}
+
+.mainnav {
+    overflow: hidden;
+    background-color: red;
+}
+
+.mainnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: inherit;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mainnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+p {
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
