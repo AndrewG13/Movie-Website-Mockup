@@ -35,37 +35,47 @@
         <h1 class="font" class="center">Customer Checkout</h1>
     </center>
     <img class="icon" src="../htmlassets/images/checkouticons.png">
-    <div class="org">
-        <form>
+    <center> 
+   <div class="org">
+       
+        <form method="post" action="#" onsubmit="return blankField()">
+        <fieldset>
             <h2 class="font">Billing Information</h2>
+           
             <ul class="font">
                 <li><label> First Name
-                        <input type="text">
+                        <input id="field1" type="text">
                     </label></li>
                 <br>
-                <li><label>Last Name <input type="text"></label></li>
+                <li><label>Last Name <input id="field2" type="text"></label></li>
                 <br>
-                <li><label>Address <input type="text"></label></li>
+                <li><label>Address <input id="field3" type="text"></label></li>
                 <br>
-                <li><label>Address (Optional) <input type="text"></label></li>
+                <li><label>Address 2(Optional) <input id="field4" type="text"></label></li>
             </ul>
-        </form>
-        <form>
+        </fieldset>
+
+        <fieldset>
             <h2 class="font">Credit Information</h2>
             <ul class="font">
                 <li><label> Name on Card:
-                        <input type="text">
+                        <input id="field5" type="text">
                     </label></li>
                 <br>
-                <li><label> Credit Card Number: <input type="text"></label></li>
+                <li><label> Credit Card Number: <input id="field6" type="text"></label></li>
                 <br>
-                <li><label>Expiration Date: <input type="text"></label></li>
+                <li><label>Expiration Date: <input id="field7" type="text"></label></li>
                 <br>
-                <li><label>Security Code: <input type="text"></label></li>
+                <li><label>Security Code: <input id="field8" type="text"></label></li>
             </ul>
+        </fieldset>
+         <strong id="warning" style="color: yellow;"></strong>
+        <input type="submit" value="Confirm Purchase">
+        
         </form>
+        
     </div>
-    <input type="submit" align="center">
+    </center>
     <!--Main Content END-->
     <footer>
         <center>
@@ -77,6 +87,7 @@
     <!--Let's try to add a footer for a more complete user experience-->
 
 </body>
-
+	
+    <script src="../htmlassets/js/checkout.js"></script>
 
 </html>
