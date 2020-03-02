@@ -57,5 +57,6 @@ if (document.getElementById('field8').value == "") {
 } else { x += 1;}
   if (x == 8) {
   return true;
+  
  } else { return false;}
 }
