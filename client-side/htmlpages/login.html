@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta content="text/html; charset= utf-8">
     <title>Login </title>
@@ -19,30 +20,33 @@
         <input type="text" placeholder="Search...">
     </div>
 
-<body>
-<form name="loginForm" method="post" action="login.php">
-        <table width="50%" bgcolor="red" align="center">
+
+<form method="post" action="homepage2.html" onsubmit="return blankField()">
+        <table width="50%" bgcolor="dimgrey" align="center">
 
     <tr>
-    <td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+    <td colspan=2><center><font size=4><b>Account Login Page</b></font>
+    <div><strong id="warning" style="color: yellow;"></strong></div></center></td>
 </tr>
 
 <tr>
 <td>Username:</td>
-<td><input id="field1" type="text" size=25></td>
+<td><input id="field1" type="text"></td>
 </tr>
 
 <tr>
 <td>Password:</td>
-<td><input id="field1" type="text" size=25></td>
+<td><input id="field2" type="text"></td>
 </tr>
 
 <tr>
-<td ><a href="login.html" >Reset</a></td>
-    <td><a href="homepage2.html" >Submit</a></td>
-    <strong id="warning" style="color: yellow;"></strong>
+<td><strong><i><a style="color: yellow;"href="login.html">Reset</a></strong></i></td>
+    <td><input type="submit" value="Submit Login"></td>
+
 </tr>
 
 </table>
 </form>
-
+</body>
+    <script src="../htmlassets/js/login.js"></script>
+</html>
