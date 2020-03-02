@@ -71,8 +71,11 @@ body {
     margin: 25px;
 }
 
-a {
-    color: white;
+
+a img {
+
+height: 100%;
+width: 100%;
 }
 
 div.items {
