@@ -75,7 +75,7 @@ a {
     color: white;
 }
 
-div.special {
+div.items {
    
     width: 18%;
     margin-left: 50px;
@@ -83,6 +83,66 @@ div.special {
     color: white;
     display: flex;
 }
+#southpark {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#southpark:hover {
+opacity: 0.6;
+}
+
+#sharktank {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#sharktank:hover {
+opacity: 0.6;
+}
+
+#bk99 {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#bk99:hover {
+opacity: 0.6;
+}
+
+#thevoice {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#thevoice:hover {
+opacity: 0.6;
+}
+
+#wolf {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#wolf:hover {
+opacity: 0.6;
+}
+
+#avengers {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#avengers:hover {
+opacity: 0.6;
+}
+
 #soon {
 border: 4px solid red;
 border-radius: 10px;
@@ -93,6 +153,25 @@ opacity: 1.0;
 opacity: 0.6;
 }
 
+#spaceballs {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#spaceballs:hover {
+opacity: 0.6;
+}
+
+#lionking {
+border: 4px solid red;
+border-radius: 10px;
+padding: 5px;
+opacity: 1.0;
+}
+#lionking:hover {
+opacity: 0.6;
+}
 
 div.container {
     text-align: center;
