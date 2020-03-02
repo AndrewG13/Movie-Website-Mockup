@@ -1,0 +1,33 @@
+
+#pop { 
+   border: 0px;
+   border-radius: 0%; 
+   width: 100px;
+   height: 150px;
+   position: relative;
+   left: 250px;
+   bottom: -100px;
+}
+
+#slush { 
+   border: 0px;
+   border-radius: 0%; 
+   width: 150px;
+   height: 150px;
+   position: relative;
+   left: -250px;
+   bottom: 60px;
+}
+
+#leavepage { 
+   border: 0px;
+   border-radius: 0%; 
+   height: 270px;
+   position: relative;
+   bottom: 270px;
+   opacity: 1.0;
+}
+
+#leavepage:hover {
+opacity: 0.6;
+}
