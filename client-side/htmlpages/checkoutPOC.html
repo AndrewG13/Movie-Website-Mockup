@@ -4,7 +4,10 @@
 <head>
     <title>Customer Checkout</title>
     <meta content="text/html; charset= utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../htmlassets/css/checkout.css">
+    <link rel="stylesheet" type="text/css" href="../htmlassets/css/homepage.css">
 </head>
 
 <body>
@@ -20,15 +23,20 @@
     <!--Breadcrumb END-->
     <!--Navigation Bar START-->
     <div class=mainnav>
-        <a class="active" href="homepage.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="browse.html">Browse</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="creataccount.html">Create Account</a>
-        <a href="login.html">Login</a>
-        <a href="subscription.html">Subscription Plans</a>
-        <a href="help.html">Help</a>
+        <a class="btn btn-danger" href="POC1homepage.html">Home</a>
+        <a class="btn btn-danger" href="aboutPOC.html">About</a>
+        <a class="btn btn-danger" href="browsePOC.html">Browse</a>
+        <a class="btn btn-danger" href="faqsPOC.html">FAQs</a>
+        <a class="btn btn-danger" href="creataccountPOC.html">Create Account</a>
+        <a class="btn btn-danger" href="loginPOC.html">Login</a>
+        <a class="btn btn-danger" href="subscriptionPOC.html">Subscription Plans</a>
+
+        <p id="searchbutton" class="btn btn-primary">Search</p>
+
+        <a class="btn btn-danger" href="helpPOC.html">Help</a>
+
         <input type="text" placeholder="Search...">
+
     </div>
     <!--Navigation Bar END-->
     <center>
@@ -70,8 +78,8 @@
                 <li><label>Security Code: <input id="field8" type="text"></label></li>
             </ul>
         </fieldset>
-         <strong id="warning" style="color: yellow;"></strong>
-        <input type="submit" value="Confirm Purchase">
+         <strong id="warning" style="color: yellow; margin-left: 40px;"></strong>
+        <input style="width: 200px; margin-top: 15px;" class="btn btn-success" type="submit" value="Confirm Purchase">
         
         </form>
         
@@ -80,13 +88,15 @@
     <!--Main Content END-->
     <footer>
         <center>
-            <p>Created By: The Weekend Warriors </p>
+            <p style="margin-top: 70px;">Created By: The Weekend Warriors </p>
             <p>To Complain: Contact the Professor</p>
         </center>
     </footer>
 
     <!--Let's try to add a footer for a more complete user experience-->
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 	
     <script src="../htmlassets/js/checkout.js"></script>
