@@ -30,11 +30,9 @@ if (document.getElementById('field3').value == "") {
   document.getElementById('warning').innerHTML = wmessage;
 
 } else { x += 1;}
-if (document.getElementById('field4').value == "") {
-  document.getElementById('field4').style.borderColor = "red";
-  document.getElementById('warning').innerHTML = wmessage;
+
  
-} else { x += 1;}
+
 if (document.getElementById('field5').value == "") {
   document.getElementById('field5').style.borderColor = "red";
   document.getElementById('warning').innerHTML = wmessage;
@@ -55,7 +53,7 @@ if (document.getElementById('field8').value == "") {
   document.getElementById('warning').innerHTML = wmessage;
 
 } else { x += 1;}
-  if (x == 8) {
+  if (x == 7) {
   return true;
   
  } else { return false;}
