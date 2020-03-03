@@ -5,38 +5,88 @@
     <meta content="text/html; charset= utf-8">
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="../htmlassets/css/homepage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/kickstart.js"></script> <!-- KICKSTART -->
+    <link rel="stylesheet" href="css/kickstart.css" media="all" /> <!-- KICKSTART -->
 </head>
 <img src="../htmlassets/images/logo.PNG"><br>
 
 <body>
+    <!-- Breadcrumbs -->
+    <ul class="breadcrumbs">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="creataccount.html">Create Account</a></li>
+    </ul>
     <!--Navigation Bar START-->
-    <div class=mainnav>
-        <a class="active" href="homepage.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="browse.html">Browse</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="creataccount.html">Create Account</a>
-        <a href="login.html">Login</a>
-        <a href="subscription.html">Subscription Plans</a>
-        <input type="text" placeholder="Search...">
-    </div>
+    <!-- Menu Horizontal -->
+    <ul class="menu">
+        <li class="current"><a href="homepage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="browse.html"><i class="fa fa-inbox"></i>Browse</a>
+            <ul>
+                <li><a href="browse.html"><i class="fa fa-cog"></i> Something</a></li>
+                <li><a href=""><i class="fa fa-envelope"></i> Sub Item</a>
+                    <ul>
+                        <li><a href=""><i class="fa fa-wrench"></i> Sub Item</a></li>
+                        <li><a href=""><i class="fa fa-camera-retro"></i> Sub Item</a></li>
+                        <li><a href=""><i class="fa fa-coffee"></i> Sub Item</a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i> Sub Item</a></li>
+                    </ul>
+                </li>
+                <li class="divider"><a href=""><i class="fa fa-trash"></i> li.divider</a></li>
+            </ul>
+        </li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="creataccount.html">Create Account</a></li>
+        <li><a href="login.html">Logint</a></li>
+        <li><a href="subscription.html">Subscription Plans</a></li>
+    </ul>
     <!--Nvigation END-->
     <!--Main Content START-->
+    <!-- Error -->
+    <div class="notice error"><i class="icon-remove-sign icon-large"></i> Account already exists
+        <a href="#close" class="icon-remove"></a></div>
+    <!-- Warning -->
+    <div class="notice warning"><i class="icon-warning-sign icon-large"></i> Removed item from cart
+        <a href="#close" class="icon-remove"></a></div>
+    <!-- Success -->
+    <div class="notice success"><i class="icon-ok icon-large"></i> Account Created / Order Complete
+        <a href="#close" class="icon-remove"></a></div>
     <h1 class="font">
         <center>Welcome to EZ Movie</center>
     </h1>
     <img src="../htmlassets/images/movie.jfif">
-    <center><h2> Mission Statement: </h2></center>
-    <center><p class="font">Here at EZ movie we are the leader in move and tv show streaming.
-        We take pride in out wide selection of movies and tv shows for you and
-        your family to enjoy. With our affordable prices we will make your family
-        movie nights and or tv show nights a breeze. </p></center>
+    <center>
+        <h2> Mission Statement: </h2>
+    </center>
+    <center>
+        <p class="font">Here at EZ movie we are the leader in move and tv show streaming.
+            We take pride in out wide selection of movies and tv shows for you and
+            your family to enjoy. With our affordable prices we will make your family
+            movie nights and or tv show nights a breeze. </p>
+    </center>
+    <!-- Slideshow -->
+    <center> <ul class="slideshow">
+        <li><img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="550" height="350" /></li>
+        <li><img src="http://placehold.it/550x350/75CC00/ffffff.png&text=550x350" width="550" height="350" /></li>
+        <li><img src="http://placehold.it/550x350/E49800/ffffff.png&text=550x350" width="550" height="350" /></li>
+        <li>
+            <h3>Slide Anything</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </li>
+    </ul>
+        </center>
 
     <!--Breadcrumb END-->
-                <footer><center>
-        <p>Created By: The Weekend Warriors </p>
-        <p>To Complain: Contact the Professor</p>
-        </center></footer>
+    <footer>
+        <center>
+            <p>Created By: The Weekend Warriors </p>
+            <p>To Complain: Contact the Professor</p>
+        </center>
+    </footer>
 </body>
 
 </html>
