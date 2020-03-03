@@ -83,7 +83,7 @@ img {
 }
 
 .dropd {
-    background-color: red;
+    background-color: silver;
     color: whitesmoke;
     padding: 15px;
     border: none;
@@ -141,6 +141,20 @@ a {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #eb4034;
+  border-radius: 0.3rem;
+}
+
+.jumbotron2{
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffc812;
+  border-radius: 0.3rem;
+}
+
+.jumbotron3{
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #bdbcbb;
   border-radius: 0.3rem;
 }
 
