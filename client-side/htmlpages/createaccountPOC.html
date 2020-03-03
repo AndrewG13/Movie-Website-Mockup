@@ -22,24 +22,29 @@
     <!--Breadcrumb END-->
     <!--Navigation Bar START-->
     <div class=mainnav>
-        <a class="active" href="homepage.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="browse.html">Browse</a>
-        <a href="faqs.html">FAQs</a>
-        <a href="creataccount.html">Create Account</a>
-        <a href="login.html">Login</a>
-        <a href="subscription.html">Subscription Plans</a>
-        <a href="help.html">Help</a>
+        <a class="btn btn-danger" href="POC1homepage.html">Home</a>
+        <a class="btn btn-danger" href="aboutPOC.html">About</a>
+        <a class="btn btn-danger" href="browse.html">Browse</a>
+        <a class="btn btn-danger" href="faqsPOC.html">FAQs</a>
+        <a class="btn btn-danger" href="creataccount.html">Create Account</a>
+        <a class="btn btn-danger" href="login.html">Login</a>
+        <a class="btn btn-danger" href="subscription.html">Subscription Plans</a>
+
+        <p id="searchbutton" class="btn btn-primary">Search</p>
+
+        <a class="btn btn-danger" href="helpPOC.html">Help</a>
+
         <input type="text" placeholder="Search...">
+
     </div>
     <!--Navigation Bar END-->
     <center>
         <!--Main Content START-->
-        <h1 class="font" class="center">Account Creation</h1>
+        <h1 class="font" class="center" style="margin-top: 20px;">Account Creation</h1>
     </center>
-    <div class="org">
+    <center><div class="org">
         <form>
-            <h2 class="font">Personal Information</h2>
+            <h2 style="margin-top: 50px;" class="font">Personal Information</h2>
             <ul class="font">
                 <li><label> First Name
                         <input type="text">
@@ -49,10 +54,10 @@
                 <br>
                 <li><label>Address <input type="text"></label></li>
                 <br>
-                <li><label>Address (Optional) <input type="text"></label></li>
+                <li><label>Address 2(Optional) <input type="text"></label></li>
             </ul>
         </form>
-        <form>
+        <form method="post" action="POC1homelogin.html">
             <h2 class="font">Contact Information</h2>
             <ul class="font">
                 <li><label> Email Address:
@@ -68,12 +73,13 @@
                 <br>
                 <li><label>Confirm Password: <input type="text" placeholder="Must be Exact"></label></li>
             </ul>
+	   <input class="btn btn-success" style="margin-top: 20px; width: 200px;" type="submit" align="center">
         </form>
-    </div>
-    <input type="submit" align="center">
+    </div></center>
+
     <footer>
         <center>
-            <p>Created By: The Weekend Warriors </p>
+            <p style="margin-top: 50px;">Created By: The Weekend Warriors </p>
             <p>To Complain: Contact the Professor</p>
         </center>
     </footer>
