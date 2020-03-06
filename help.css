@@ -1,0 +1,90 @@
+nav {
+    border-bottom: 2px solid black;
+}
+
+.glutenfree ol {
+    list-style-type: none;
+    padding=left: 0;
+}
+
+.gluten {
+    display: inline-block;
+}
+
+.gluten a::after {
+    display: inline-block;
+    color: red;
+    content: "->";
+    font-weight: bold;
+    padding: inherit;
+}
+
+.center {
+    text-align: center;
+}
+
+.align {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainnav {
+    overflow: hidden;
+    background-color: red;
+    border-radius: 5%;
+}
+
+.mainnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mainnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+#cart {
+  border-radius: 0%;
+  border: none;
+  height: 500px;
+  margin-right: 400px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 5px;
+}
+
+
+
+.font {
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
